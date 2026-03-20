@@ -44,8 +44,10 @@ cd nome-do-projeto
 
 Configure a conexão com o banco no arquivo PHP:
 
-$pdo = new PDO("mysql:host=localhost;dbname=consumo_api", "seu_usuario", "sua_senha");
-
+DB_HOST=localhost
+DB_NAME=consumo_api
+DB_USER=root
+DB_PASS="sua_senha"
 -----------------------------
 ## Inicie o servidor local:
 php -S localhost:8000
